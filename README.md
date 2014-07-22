@@ -121,7 +121,7 @@ $ git submodule add git@github.com:zenorocha/dracula-theme.git bundle/dracula-th
 If you [use vim + vundle](https://github.com/gmarik/vundle):
 
 ```sh
-Bundle 'zenorocha/dracula-theme'
+Bundle 'zenorocha/dracula-theme', {'rtp': 'vim/'}
 :BundleInstall
 ```
 
